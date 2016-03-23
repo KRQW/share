@@ -3,7 +3,7 @@
 #####1.获取字符串中 中文 和 数字的长度
 
 ``` javascript
-var str = "怎样从一个Html页面中提取所有汉字呢？不能有其它Html代码。数字123456";
+var str = "中文，数字123456，world！";
 
 console.log('中文长度：'+str.replace(/[^\u4e00-\u9fa5]/g,"").length); //将非中文替换空字符串，返回中文长度
 
