@@ -4,8 +4,8 @@
 
 ``` javascript
 var str = "怎样从一个Html页面中提取所有汉字呢？不能有其它Html代码。数字123456";  
-console.log('中文长度：'+str.replace(/[^\u4e00-\u9fa5]/gi,"").length);
-console.log('数字长度：'+str.replace(/[^0-9]/gi,"").length);
+console.log('中文长度：'+str.replace(/[^\u4e00-\u9fa5]/g,"").length);
+console.log('数字长度：'+str.replace(/[^0-9]/g,"").length);
 ```
 #####2.去除数组重复元素
 
