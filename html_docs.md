@@ -11,3 +11,9 @@
   content:attr(data-val);
 }
 ```
+``` javascript
+
+//js修改值
+$('.upd-val').data('val',666);
+
+```
