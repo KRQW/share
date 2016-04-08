@@ -17,7 +17,6 @@
 $('.upd-val').data('val',666);
 
 ```
-
 #### 国际化手机验证
 ```html
 <select id="mySelect" name="phoneArea">
@@ -319,8 +318,9 @@ $('.upd-val').data('val',666);
         南非 (+27)
     </option>
 </select>
+```
+#### 背景划动
 
-##### 背景划动
 ````css 
 .slidebg{
     background: -webkit-gradient(linear, left top, right top, color-stop(0, #4d4d4d), color-stop(.4, #4d4d4d), color-stop(.5, white), color-stop(.6, #4d4d4d), color-stop(1, #4d4d4d));
