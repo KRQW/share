@@ -319,3 +319,21 @@ $('.upd-val').data('val',666);
         南非 (+27)
     </option>
 </select>
+
+##### 背景划动
+````css 
+.slidebg{
+    background: -webkit-gradient(linear, left top, right top, color-stop(0, #4d4d4d), color-stop(.4, #4d4d4d), color-stop(.5, white), color-stop(.6, #4d4d4d), color-stop(1, #4d4d4d));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: slidetounlock 3s infinite;
+    -webkit-text-size-adjust: none;
+}
+@-webkit-keyframes slidetounlock {
+    0% {
+        background-position: -200px 0
+    }
+    100% {
+        background-position: 200px 0
+    }
+}
