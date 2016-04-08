@@ -17,10 +17,9 @@
 $('.upd-val').data('val',666);
 
 ```
-```html
 
 #### 国际化手机验证
-
+```html
 <select id="mySelect" name="phoneArea">
     <option value="1" data-pattern="^(86){0,1}1\d{10}$" check-key="^(86){0,1}1\d{10}$"
     data-code="86" class="tsl" data-phase-id="r_c_1">
