@@ -1,5 +1,18 @@
 # html常用方法
 
+##### 字体背景渐变
+```css
+  display: block;
+  font-size: 26px;
+  text-align: center;
+  color: #19CD76;
+  font-weight: bold;
+  background: -webkit-gradient(linear,left top,left bottom,from(#19CD76),to(#FF6565));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none !important;
+```
+
 ##### 修改css3伪类值
 ``` html
 <!-- html -->
