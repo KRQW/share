@@ -1,5 +1,62 @@
 # html常用方法
 
+##### 滚动字幕
+
+```css
+
+#demo{
+  overflow: hidden;
+  width:100%;
+  margin-bottom:10px;
+  margin-top:-5px;
+}
+.img-list td{padding-right:20px;}
+	
+```
+``` html
+<div id="demo">
+<table>
+	<tbody>
+	<tr>
+		<td id="marquePic1" valign="top">
+			<table class="img-list">
+				<tr>
+					<td width="95" height="30" align="center"><img src="images/construction-bank.png" class="construction-bank"/></td>
+					<td width="95" align="center"><img src="images/gf-bank.png" class="gf-bank"/></td>
+					<td width="95" align="center"><img src="images/gs-bank.png" class="gs-bank"/></td>
+					<td width="95" align="center"><img src="images/ms-bank.png" class="ms-bank"/></td>
+					<td width="95" align="center"><img src="images/pa-bank.png" class="pa-bank"/></td>
+					<td width="95" align="center"><img src="images/pf-bank.png" class="pf-bank"/></td>
+					<td width="95" align="center"><img src="images/xy-bank.png" class="xy-bank"/></td>
+					<td width="95" align="center"><img src="images/zs-bank.png" class="zs-bank"/></td>
+					<td width="95" align="center"><img src="images/zfb.png" class="zfb"/></td>
+				</tr>
+			</table>
+		</td>
+		<td id="marquePic2" valign="top"></td>
+	</tr>
+	</tbody>
+</table>
+</div>
+```
+
+``` javascript
+
+var speed=30;
+marquePic2.innerHTML=marquePic1.innerHTML;
+function Marquee(){
+  if(demo.scrollLeft>=marquePic1.scrollWidth){
+    demo.scrollLeft=0;
+  }else{
+    demo.scrollLeft++;
+  }
+}
+var MyMar=setInterval(Marquee,speed);
+
+```
+
+
+
 ##### 字体背景渐变
 ```css
   display: block;
