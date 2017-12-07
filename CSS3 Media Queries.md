@@ -1,4 +1,5 @@
-常用主流移动设备CSS3 Media Queries整理
+
+#常用主流移动设备CSS3 Media Queries整理
 
 使用的时候根据实际的需要进行条件判断，其中 
 landscape 表示设备 横屏 情况 ，portrait 表示设备 竖屏 情况
@@ -9,10 +10,15 @@ max-device-width 表示设备最大分辨率宽度，min-device-width 表示设�
 
 值得注意的是 我们在写设备页面适配的时候，不要忘记加上这句，要不然页面在PC端模拟测试是没有效果的。
 
-``html
+``` html
+
 <meta name="viewport" content="width=device-width,user-scalable=no" />
-``
+
+```
+
 意思是：设置屏幕宽度为设备宽度，禁止用户手动调整缩放，关于viewpotr其他具体参数设置，可以百度查阅。
+
+``` css
 
 @charset "utf-8";
 
@@ -212,3 +218,5 @@ and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 1) {
 
 }
+
+```
