@@ -1,5 +1,5 @@
 
-#常用主流移动设备CSS3 Media Queries整理
+## 常用主流移动设备CSS3 Media Queries整理
 
 使用的时候根据实际的需要进行条件判断，其中 
 landscape 表示设备 横屏 情况 ，portrait 表示设备 竖屏 情况
