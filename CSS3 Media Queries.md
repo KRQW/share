@@ -2,11 +2,11 @@
 ## 常用主流移动设备CSS3 Media Queries整理
 
 使用的时候根据实际的需要进行条件判断，其中 
-landscape 表示设备 横屏 情况 ，portrait 表示设备 竖屏 情况
+`landscape` 表示设备 `横屏` 情况 ，`portrait` 表示设备 `竖屏` 情况
 
-max-device-width 表示设备最大分辨率宽度，min-device-width 表示设备最小分辨率宽度
+`max-device-width` 表示设备最大分辨率宽度，`min-device-width` 表示设备最小分辨率宽度
 
-关于 min-width 和 min-device-width 的区别是，前者是指的网页窗口的最小宽度，后者是指设备最小分辨率宽度，同理 max-width 和 max-device-width，前者是指网页窗口的最大宽度，后者是指设备最大分辨率宽度。
+关于 `min-width` 和 `min-device-width` 的区别是，前者是指的网页窗口的最小宽度，后者是指设备最小分辨率宽度，同理 `max-width` 和 `max-device-width`，前者是指网页窗口的最大宽度，后者是指设备最大分辨率宽度。
 
 值得注意的是 我们在写设备页面适配的时候，不要忘记加上这句，要不然页面在PC端模拟测试是没有效果的。
 
