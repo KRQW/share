@@ -408,9 +408,9 @@ $('.upd-val').data('val',666);
     }
 }
 ````
-#### display: none与visibility: hidden的区别
+## display: none与visibility: hidden的区别
 
-visibility: hidden和display: none的区别不仅仅在于display: none隐藏后的元素不占据任何空间，而visibility: hidden隐藏后的元素空间依旧保留 ，实际上没那么简单，visibility是一个非常有故事性的属性
+#### visibility: hidden和display: none的区别不仅仅在于display: none隐藏后的元素不占据任何空间，而visibility: hidden隐藏后的元素空间依旧保留 ，实际上没那么简单，visibility是一个非常有故事性的属性
 
 1、visibility具有继承性，给父元素设置visibility:hidden;子元素也会继承这个属性。但是如果重新给子元素设置visibility: visible,则子元素又会显示出来。这个和display: none有着质的区别
 
